@@ -36,12 +36,6 @@ dataTableXPath_2 = "//table[@id='GirdTable2']//tbody/tr"
 
 pageType = 1
 
-def changeDateFormat(strDate):
-    if(not strDate):
-        return ""
-    else:
-        return datetime.datetime.strptime(strDate, '%d/%m/%Y').strftime(OUT_PUT_DATE_FORMAT)
-
 def compareDate(strDate1, strDate2):
     date1 = datetime.datetime.strptime(strDate1, "%d/%m/%Y")
     date2 = datetime.datetime.strptime(strDate2, "%d/%m/%Y")

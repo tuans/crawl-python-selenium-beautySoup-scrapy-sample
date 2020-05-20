@@ -3,7 +3,7 @@ import traceback
 import os
 from dotenv import load_dotenv
 load_dotenv(dotenv_path='properties.env')
-from crawlCafef import *
+from crawlCafef_v2 import *
 
 NUMBER_OF_THREAD = os.getenv("NUMBER_OF_THREAD")
 
