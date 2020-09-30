@@ -1,23 +1,19 @@
-```Install require libraries
 ```
-## pip3 install -r requirements.txt
+```
+## Version 1
 
 ```Run sample need to download correspond chrome driver with Chrome browser
-   <br>
    link to download: https://chromedriver.chromium.org/downloads
-   <br>
    copy to libs folder and rename for that file
-   <br>
    Change the properties file with corespond OS
+   Install require libraries: pip3 install -r requirements.txt
+   And run command: python crawlWithSelenium.py
 ```
-## python crawlWithSelenium.py
+## Version 2
 
 ```I created version 2
-   <br>
    For running version no longer require Selenium
-   <br>
    Just need to create the folder named "results" at the top level
-   <br>
-   And run below command
+   And run ] command: python main.py
 ```
-## python main.py
+
