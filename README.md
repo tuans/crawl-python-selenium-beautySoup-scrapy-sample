@@ -12,3 +12,12 @@
 ```
 ## python crawlWithSelenium.py
 
+```I created version 2
+   <br>
+   For running version no longer require Selenium
+   <br>
+   Just need to create the folder named "results" at the top level
+   <br>
+   And run below command
+```
+## python main.py
